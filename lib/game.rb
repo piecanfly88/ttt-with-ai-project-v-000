@@ -129,7 +129,7 @@ class Game
       start
     end
   end
-  # 
+  #
   # def play_again?(dec)
   #   if dec == "Y" || "y"
   #     start
