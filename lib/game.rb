@@ -92,6 +92,7 @@ class Game
     elsif decision == "N" || "n"
       puts "Thanks for playgin!"
     end
+    again
   end
 
 
