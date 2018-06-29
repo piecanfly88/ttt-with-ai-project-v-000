@@ -76,11 +76,15 @@ class Game
       puts "Congratulations #{winner}!"
     elsif draw?
       puts "Cat's Game!"
+      puts "ok"
+      decision = input.gets
+      
     end
 
-    puts "Play Again?  Y/N"
-    decision = gets.strip
 
+    def again(decision)
+      puts "Play Again?  Y/N"
+      decision = gets.strip
     if decision == "Y" || "y"
       puts "what"
       self.start
