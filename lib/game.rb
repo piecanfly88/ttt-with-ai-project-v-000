@@ -80,7 +80,7 @@ class Game
       self.again
 
     end
-
+  end
 
     def again
       puts "Play Again?  Y/N"
