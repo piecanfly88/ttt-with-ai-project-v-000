@@ -86,10 +86,10 @@ class Game
     def again
       puts "Play Again?  Y/N"
       decision = gets.strip
-    if decision == "Y" || "y"
+    if decision == "Y"
       puts "what"
       self.start
-    elsif decision == "N" || "n"
+    elsif decision == "N"
       puts "Thanks for playgin!"
     end
     again
