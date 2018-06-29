@@ -74,6 +74,7 @@ class Game
 
     if won?
       puts "Congratulations #{winner}!"
+      self.again
     elsif draw?
       puts "Cat's Game!"
       puts "ok"
@@ -91,7 +92,6 @@ class Game
     elsif decision == "N" || "n"
       puts "Thanks for playgin!"
     end
-
   end
 
 
