@@ -126,7 +126,7 @@ class Game
       # puts "Enter '1' for Computer vs. Human"
       # puts "Enter '2' for Human vs. Human"
       # input = gets.strip
-      start
+      # start
     end
   end
   #
