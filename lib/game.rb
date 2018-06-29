@@ -82,7 +82,7 @@ class Game
     decision = gets.strip
 
     if decision == "Y" || "y"
-      puts "what"
+      self.start
     elsif decision == "N" || "n"
       puts "Thanks for playgin!"
     end
