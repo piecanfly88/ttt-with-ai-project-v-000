@@ -77,9 +77,7 @@ class Game
       self.again
     elsif draw?
       puts "Cat's Game!"
-      puts "ok"
       self.again
-
     end
   end
 
@@ -87,7 +85,6 @@ class Game
       puts "Play Again?  Y/N"
       decision = gets.strip
     if decision == "Y" || decision == "y"
-      puts "what"
       self.start
     elsif decision == "N" || decision == "n"
       puts "Thanks for playgin!"
