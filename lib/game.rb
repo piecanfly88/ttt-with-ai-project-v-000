@@ -83,7 +83,7 @@ class Game
 
     if decision == "Y" || "y"
       puts "what"
-      # self.start
+      self.start
     elsif decision == "N" || "n"
       puts "Thanks for playgin!"
     end
