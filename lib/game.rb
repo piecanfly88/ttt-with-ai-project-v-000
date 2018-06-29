@@ -76,13 +76,13 @@ class Game
       puts "Congratulations #{winner}!"
     elsif draw?
       puts "Cat's Game!"
-    end 
+    end
 
     puts "Play Again?  Y/N"
     decision = gets.strip
 
     if decision == "Y" || "y"
-      start
+      Game.new.start
     elsif decision == "N" || "n"
       puts "Thanks for playgin!"
     end
