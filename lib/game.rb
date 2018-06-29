@@ -129,15 +129,15 @@ class Game
       start
     end
   end
-
-  def play_again?(dec)
-    if dec == "Y" || "y"
-      start
-    elsif dec == "N" || "n"
-      puts "Thanks for playing!"
-    # else
-    #   puts "Sorry, come again?"
-    #   play_again?(dec)
-    end
-  end
+  # 
+  # def play_again?(dec)
+  #   if dec == "Y" || "y"
+  #     start
+  #   elsif dec == "N" || "n"
+  #     puts "Thanks for playing!"
+  #   # else
+  #   #   puts "Sorry, come again?"
+  #   #   play_again?(dec)
+  #   end
+  # end
 end
